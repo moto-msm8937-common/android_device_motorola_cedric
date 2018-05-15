@@ -1,5 +1,5 @@
 #
-# system.prop for cedric
+# vendor.prop for cedric
 #
 
 # Radio

@@ -18,7 +18,7 @@
 $(call inherit-product, device/motorola/msm8937-common/msm8937.mk)
 
 # Properties
-$(call inherit-product, device/motorola/cedric/system_prop.mk)
+$(call inherit-product, device/motorola/cedric/vendor_prop.mk)
 
 # Audio
 PRODUCT_COPY_FILES += \
