@@ -32,6 +32,8 @@ vendor/lib/libqomx_core.so
 vendor/lib/libqomx_jpegenc.so
 vendor/lib/libqomx_jpegenc_pipe.so
 vendor/lib/libubifocus.so
+vendor/lib/libllvd_sw_tnr.so|506865663632a4d59fadefa1f72930e82edd1ac2
+vendor/lib/libmmcamera_sw_tnr.so|4a56204cc86d7cc3059adca12bd6ab5367bac354
 
 # Camera-actuators
 vendor/lib/libactuator_dw9718s.so
