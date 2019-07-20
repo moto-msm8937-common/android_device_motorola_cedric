@@ -1,4 +1,3 @@
-#!/bin/bash
 #
 # Copyright (C) 2017 The LineageOS Project
 #
@@ -15,12 +14,21 @@
 # limitations under the License.
 #
 
-set -e
+LOCAL_PATH := $(call my-dir)
 
-DEVICE=cedric
-DEVICE_COMMON=msm8937-common
-VENDOR=motorola
+include $(CLEAR_VARS)
 
-DEVICE_BRINGUP_YEAR=2017
+LOCAL_SRC_FILES := \
+    FingerprintWrapper.cpp
 
-./../../$VENDOR/$DEVICE_COMMON/extract-files.sh $@
+LOCAL_SHARED_LIBRARIES := \
+    libhardware liblog
+
+LOCAL_MODULE_RELATIVE_PATH := hw
+LOCAL_MODULE := fingerprint.$(TARGET_BOARD_PLATFORM)
+LOCAL_MODULE_TAGS := optional
+LOCAL_32_BIT_ONLY := true
+
+include $(BUILD_SHARED_LIBRARY)
+
+include $(call all-makefiles-under,$(LOCAL_PATH))

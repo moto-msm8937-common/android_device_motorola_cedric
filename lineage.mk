@@ -14,22 +14,29 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# Inherit from the common Open Source configuration
+$(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit from those products. Most specific first.
-$(call inherit-product, device/motorola/cedric/full_cedric.mk)
+# Inherit from cedric device
+$(call inherit-product, device/motorola/cedric/device.mk)
+$(call inherit-product, vendor/motorola/cedric/cedric-vendor.mk)
 
-# Inherit some common CM stuff.
+# Inherit from the common LineageOS configuration.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Boot animation
 TARGET_SCREEN_WIDTH := 1080
 TARGET_SCREEN_HEIGHT := 1920
 
-## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := cedric
 PRODUCT_NAME := lineage_cedric
 PRODUCT_BRAND := motorola
 PRODUCT_MANUFACTURER := motorola
+
+# Overlays
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay
 
 PRODUCT_ENFORCE_RRO_TARGETS := \
     framework-res
