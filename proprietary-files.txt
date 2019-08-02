@@ -443,20 +443,27 @@ vendor/firmware/sensorhubfw.bin
 vendor/firmware/synaptics-tianma-s3203b-16120901-25d862-cedric.tdat
 
 # Graphics
-vendor/lib/egl/eglSubDriverAndroid.so 
-vendor/lib/egl/eglsubAndroid.so 
-vendor/lib/egl/libEGL_adreno.so 
-vendor/lib/egl/libESXEGL_adreno.so 
-vendor/lib/egl/libESXGLESv1_CM_adreno.so 
-vendor/lib/egl/libESXGLESv2_adreno.so 
-vendor/lib/egl/libGLESv1_CM_adreno.so 
-vendor/lib/egl/libGLESv2_adreno.so 
-vendor/lib/egl/libQTapGLES.so 
-vendor/lib/egl/libRBEGL_adreno.so 
-vendor/lib/egl/libRBGLESv1_CM_adreno.so 
-vendor/lib/egl/libRBGLESv2_adreno.so 
-vendor/lib/egl/libq3dtools_adreno.so 
-vendor/lib/egl/libq3dtools_esx.so
+vendor/lib/egl/eglSubDriverAndroid.so|df793571f098118d17791ba41ef6665622537420
+vendor/lib/egl/eglsubAndroid.so
+vendor/lib/egl/libEGL_adreno.so|e71d8c2e3cbc45a400eebb06f5b4537765d6774b
+vendor/lib/egl/libESXEGL_adreno.so
+vendor/lib/egl/libESXGLESv1_CM_adreno.so
+vendor/lib/egl/libESXGLESv2_adreno.so
+vendor/lib/egl/libGLESv1_CM_adreno.so|6cdf508dc2808ac60f61807602da0ea2546b01f1
+vendor/lib/egl/libGLESv2_adreno.so|070b15c84f40c90d5da62bede1978a7837c54b38
+vendor/lib/egl/libQTapGLES.so|69fb946bed7b1e265947573a8492e711bbb3cb8d
+vendor/lib/egl/libRBEGL_adreno.so
+vendor/lib/egl/libRBGLESv1_CM_adreno.so
+vendor/lib/egl/libRBGLESv2_adreno.so
+vendor/lib/egl/libq3dtools_adreno.so|d7d7a70f57ed27862da09c90a5852eb41b71efaf
+vendor/lib/egl/libq3dtools_esx.so|77a1fd6ba65577a580b74dda24286c8bfc72d3e0
+vendor/lib64/egl/eglSubDriverAndroid.so|2c39ecac957b7ecc1441af8f8ccdd5ca3b3ead00
+vendor/lib64/egl/libEGL_adreno.so|19a25a1177b592eecf3ee2c0f57bd7854ce2612c
+vendor/lib64/egl/libGLESv1_CM_adreno.so|80443ccf296dac68915e686dab54938dfe4f6f5d
+vendor/lib64/egl/libGLESv2_adreno.so|7b29dc90fa084f54f7e3b745396415455269297b
+vendor/lib64/egl/libQTapGLES.so|925ef8576f1906d5e1558d1ea9f2279b87f3b6ba
+vendor/lib64/egl/libq3dtools_adreno.so|f3d0bb86e904ad6c5f32ebfad7524c7b8459efd0
+vendor/lib64/egl/libq3dtools_esx.so|2521615ca2c907f79f72038cdc876baf932dc4d9
 
 # Media
 vendor/lib/libMpeg4SwEncoder.so
