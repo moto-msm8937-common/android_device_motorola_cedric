@@ -41,9 +41,5 @@ DEVICE_PACKAGE_OVERLAYS += \
 PRODUCT_ENFORCE_RRO_TARGETS := \
     framework-res
 
-PRODUCT_SYSTEM_PROPERTY_BLACKLIST := \
-    ro.product.model \
-    ro.product.vendor.model
-
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="Moto G5"
