@@ -21,6 +21,7 @@ include device/motorola/msm8937-common/BoardConfigCommon.mk
 -include vendor/motorola/cedric/BoardConfigVendor.mk
 
 DEVICE_PATH := device/motorola/cedric
+DEVICE_MANIFEST += $(DEVICE_PATH)/manifest.xml
 
 # Asserts
 TARGET_OTA_ASSERT_DEVICE := cedric,cedric_retail
