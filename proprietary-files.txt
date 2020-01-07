@@ -476,7 +476,7 @@ vendor/bin/hw/motorola.hardware.camera.provider@2.4-service
 vendor/etc/init/motorola.hardware.camera.provider@2.4-service_delayed.rc
 vendor/lib/hw/motorola.hardware.camera.provider@2.4-impl.so
 vendor/lib/libmotocalibration.so
-vendor/lib/libmot_gpu_mapper.so
+vendor/lib/libmot_gpu_mapper.so|6b6421fc7aeaf15778d04d6ab5bab8302744e609
 vendor/lib/libmot_lux_standardization.so
 vendor/lib/lib_motsensorlistener.so
 vendor/lib/motcamera.device@1.0-impl.so
