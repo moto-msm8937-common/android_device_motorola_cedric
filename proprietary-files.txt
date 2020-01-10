@@ -504,7 +504,7 @@ vendor/lib/libflash_aw3641.so
 vendor/lib/libflash_sky81298.so
 vendor/lib/libflash_wd3100.so
 vendor/lib/libjscore.so
-vendor/lib/libjustshoot.so
+vendor/lib/libjustshoot.so|19989f3f9dfa702ed6ad9c0f97a926ee150c7e2f
 vendor/lib/libllvd_smore.so
 vendor/lib/libmbs.so
 vendor/lib/libmm-disp-apis.so
