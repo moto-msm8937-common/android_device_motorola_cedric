@@ -4,7 +4,7 @@
 
 # Radio
 PRODUCT_PROPERTY_OVERRIDES += \
-    rild.libargs=-d /dev/smd
+    rild.libargs=-d /dev/smd0
 
 # Fingerprint
 PRODUCT_PROPERTY_OVERRIDES += \
